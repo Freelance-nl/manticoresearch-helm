@@ -5,7 +5,7 @@ entries:
     appVersion: 6.2.13.1
     created: "2024-03-28T11:51:09.804580885Z"
     description: A Helm chart for Kubernetes
-    digest: e8959a90cf89b953687c14ad4f8d691f541ec0fedc1512b7e6ee5d4e26d4867e
+    digest: 9bac8b3fe0a828bdd387b456f5efb5662698506341b40a2620e682fb419fae1d
     name: manticoresearch
     type: application
     urls:
