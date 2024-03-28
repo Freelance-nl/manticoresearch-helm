@@ -3,12 +3,12 @@ entries:
   manticoresearch:
   - apiVersion: v2
     appVersion: 6.2.13.1
-    created: "2024-03-28T08:58:09.804580885Z"
+    created: "2024-03-28T11:51:09.804580885Z"
     description: A Helm chart for Kubernetes
-    digest: ae4998413171338c8438c70a543f89c5fb5ec4c79b664be48242244a1cc4a6d6
+    digest: e8959a90cf89b953687c14ad4f8d691f541ec0fedc1512b7e6ee5d4e26d4867e
     name: manticoresearch
     type: application
     urls:
-    - https://github.com/Freelance-nl/manticoresearch-helm/archive/refs/tags/manticoresearch-6.2.131.tar.gz
+    - https://github.com/Freelance-nl/manticoresearch-helm/releases/download/manticoresearch-6.2.131/manticoresearch-6.2.131.tgz
     version: 6.2.131
-generated: "2024-03-28T08:58:09.804580885Z"
+generated: "2024-03-28T11:51:09.804580885Z"
