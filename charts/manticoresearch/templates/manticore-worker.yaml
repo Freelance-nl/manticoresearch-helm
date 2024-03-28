@@ -139,6 +139,11 @@ spec:
         - name: config-volume
           configMap:
             name: {{ include "manticoresearch.fullname" . }}-worker-config
+        {{- range .Values.worker.volumes }}
+        - name: {{ .name }}
+          configMap:
+            name: {{ .configMap.name }}
+        {{- end }}
       {{- with .Values.worker.nodeSelector }}
       nodeSelector:
         {{- toYaml . | nindent 8 }}

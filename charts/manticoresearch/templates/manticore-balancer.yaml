@@ -127,6 +127,11 @@ spec:
         - name: config-volume
           configMap:
             name: {{ include "manticoresearch.fullname" . }}-balancer-config
+        {{- range .Values.balancer.volumes }}
+        - name: {{ .name }}
+          configMap:
+            name: {{ .configMap.name }}
+        {{- end }}
       {{- with .Values.balancer.nodeSelector }}
       nodeSelector:
         {{- toYaml . | nindent 8 }}
